@@ -1,0 +1,7 @@
+#FloorOne {
+    display: flex;
+    height: 700px;
+    width: 700px;
+    flex-wrap: wrap;
+    border: solid black;
+}
