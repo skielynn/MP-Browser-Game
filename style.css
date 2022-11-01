@@ -1,2 +1,52 @@
+.border {
+    display: flex;
+    height: 600px;
+    width: 1505px;
+    flex-wrap: wrap;
+    border: solid black;
+    border-width: thick;
+}
 
+.sectiona {
+    display: flex;
+    height: 175px;
+    width: 450px;
+    flex-wrap: wrap;
+    border: solid black;
+    border-width: thick;
+    border-bottom: none;
+    background: linear-gradient(black,black) bottom left no-repeat;
+    background-size:75% 5px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+}
 
+.sectionb {
+    display: flex;
+    height: 175px;
+    width: 450px;
+    flex-wrap: wrap;
+    border: solid black;
+    border-width: thick;
+    border-bottom: none;
+    background: linear-gradient(black,black) bottom left no-repeat;
+    background-size:75% 5px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+}
+
+.sectionc {
+    display: flex;
+    height: 175px;
+    width: 450px;
+    flex-wrap: wrap;
+    border: solid black;
+    border-width: thick;
+    border-bottom: none;
+    background: linear-gradient(black,black) bottom left no-repeat;
+    background-size:100% 5px;
+    border-top: 0;
+    border-left: 0;
+}
