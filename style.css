@@ -7,6 +7,7 @@
     border-width: thick;
 }
 
+
 .sectiona {
     display: flex;
     height: 175px;
@@ -31,22 +32,26 @@
     border-width: thick;
     border-bottom: none;
     background: linear-gradient(black,black) bottom left no-repeat;
-    background-size:75% 5px;
+    background-size: 100% 5px;
     border-right: 0;
     border-top: 0;
     border-left: 0;
 }
 
-.sectionc {
-    display: flex;
-    height: 175px;
-    width: 450px;
-    flex-wrap: wrap;
-    border: solid black;
-    border-width: thick;
-    border-bottom: none;
-    background: linear-gradient(black,black) bottom left no-repeat;
-    background-size:100% 5px;
-    border-top: 0;
-    border-left: 0;
+.redbox {
+    float: right;
+    height: 185px;
+    width: 2000px;
+    margin-bottom: 400px;
+    margin-left: 1050px;
+    border: 1px solid black;
+    clear: both;
+    background-color: red;
 }
+
+
+
+
+
+
+    
