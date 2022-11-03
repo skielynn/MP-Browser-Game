@@ -14,8 +14,8 @@ function Character(x, y) {
 }
 
 // The setInterval() method calls a function at specified intervals (in milliseconds). 1 second = 1000 milliseconds.  W3SCHOOLS
-setInterval(walk, 1000/30);
+setInterval(walk, 1000/50);
 
 function walk() {
- console.log("walk")
+
 }
