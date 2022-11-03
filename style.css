@@ -38,18 +38,51 @@
     border-left: 0;
 }
 
-.redbox {
-    float: right;
-    height: 185px;
-    width: 2000px;
-    margin-bottom: 400px;
-    margin-left: 1050px;
-    border: 1px solid black;
-    clear: both;
-    background-color: red;
+.sectionc {
+    display: flex;
+    height: 175px;
+    width: 450px;
+    flex-wrap: wrap;
+    border: solid black;
+    border-width: thick;
+    border-bottom: none;
+    background-size: 100% 5px;
+    border-bottom: 0;
+    margin-top: 200px;
+    margin-right: 200px;
+    border-left: 0;
+    border-bottom: none;
+    border-right: 0;
 }
 
+.sectiond {
+    display: flex;
+    height: 175px;
+    width: 365px;
+    flex-wrap: wrap;
+    border: solid black;
+    border-width: thick;
+    border-bottom: none;
+    background-size: 100% 5px;
+    border-bottom: 0;
+    margin-top: 200px;
+    margin-right: 200px;
+    border-left: 0;
+    border-bottom: none;
+    border-right: 0;
+    margin-right: 200px;
+}
 
+.redbox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 275px;
+    background-color: red;
+    margin-right: 15px;
+    
+
+}
 
 
 
