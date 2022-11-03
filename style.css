@@ -1,4 +1,8 @@
 
-
-
-    
+.gamescreen {
+    border: 5px solid black;
+}
+ 
+body {
+    text-align: center;
+}
