@@ -1,5 +1,13 @@
-#chrId {
-    position: relative;
-    top: 0px;
-    left: 0px;
+.gamescreen {
+    height: 500px;
+    width: 500px;
+    border-style: 5px solid black;
 }
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+ 

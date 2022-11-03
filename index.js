@@ -1,34 +1,24 @@
-function move(event) {
-    var k = event.keyCode,
-        chrId = document.getElementById('test'),
-        chr = {
-            updown: function () {
-                var y = parseInt(getComputedStyle(chrId).top);
-                if (k == 38) {
-                    --y;
-                } else if (k == 40) {
-                    ++y;
-                }
-    
-                return y;
-            },
-    
-            leftright: function () {
-                var x = parseInt(getComputedStyle(chrId).left);
-                if (k == 37) {
-                    --x;
-                } else if (k == 39) {
-                    ++x;
-                }
-    
-                return x;
-            }
-        };
-    
-    chrId.style.top = (chr.updown()) + "px";
-    chrId.style.left = (chr.leftright()) + "px";
-    }
-    
-    document.addEventListener('keydown', move);
-    Share
-    Follow
+let circle = document.querySelector('.circle');
+
+let moveBy = 55;
+
+window.addEventListener('load', () => {
+   circle.style.position = 'absolute';
+   circle.style.left = 0;
+   circle.style.top = 0;
+
+});
+
+window.addEventListener('keyup', (e) => {
+   switch(e.key) {
+       case 'ArrowLeft' :
+          circle.style.left = parseInt(circle.style.left) - moveBy + 'px'
+          break;
+        case 'ArrowRight' :
+          circle.style.left = parseInt(circle.style.left) + moveBy + 'px'
+          break;
+        case 'ArrowDown' :
+          circle.style.top = parseInt(circle.style.top) + moveBy + 'px'
+          break;
+   }
+ });
